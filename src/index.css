@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --rs-color-bg: #07070f;
+    --rs-color-surface: #0f0f1e;
+    --rs-color-surface-2: #141428;
+    --rs-color-border: rgba(168, 85, 247, 0.15);
+    --rs-color-text: #e8e8f0;
+    --rs-color-text-muted: #6b6b85;
+    --rs-color-text-dim: #a0a0b8;
+    --rs-color-text-nav: #c0c0d8;
+    --rs-color-text-input: #e0e0f0;
+    --rs-color-cyan: #06b6d4;
+    --rs-color-cyan-dark: #0891b2;
+    --rs-color-blue: #6366f1;
+    --rs-color-blue-dark: #4f46e5;
+    --rs-color-magenta: #a855f7;
+    --rs-color-magenta-dark: #7c3aed;
+    --rs-color-diamond: #22d3ee;
+    --rs-color-gold: #fbbf24;
+    --rs-color-silver: #d1d5db;
+    --rs-color-copper: #c97a3d;
+    --rs-color-bronze: #8b6b45;
+    --rs-color-green: #4ade80;
+    --rs-color-red-soft: #f87171;
+    --rs-color-submenu-bg: #1a1a2e;
+    --rs-color-price-main: #e0f7ff;
+    --rs-radius: 0.6rem;
+    --rs-radius-md: 0.8rem;
+    --rs-radius-lg: 1.4rem;
+    --rs-radius-xl: 2rem;
+    --rs-radius-pill: 5rem;
+    --rs-transition: 0.22s ease;
+    --rs-shadow: 0 4px 24px rgba(0, 0, 0, 0.55);
+    --rs-shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.45);
+    --rs-shadow-title-glow: 0 0 0.4rem rgba(168, 85, 247, 0.7), 0 0 0.9rem rgba(168, 85, 247, 0.35), 0 0 1.4rem rgba(99, 102, 241, 0.2), 0 0 2rem rgba(6, 182, 212, 0.15);
+    --rs-shadow-cyan-glow: 0 0 0.8rem rgba(6, 182, 212, 0.5), 0 0 1.6rem rgba(6, 182, 212, 0.2);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 13px;
+    line-height: 1;
+    background-color: var(--rs-color-bg);
+    color: var(--rs-color-text);
+  }
+
+  ::selection {
+    background: rgba(168, 85, 247, 0.35);
+    color: #ffffff;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center gap-8 px-16 py-10 rounded-rs font-semibold text-white bg-primary transition-transform duration-rs hover:-translate-y-px hover:shadow-[0_0_0_2px_rgb(228,228,228)] hover:opacity-75 focus:outline-none;
+  }
+
+  .btn-pill {
+    @apply rounded-rs-pill;
+  }
+
+  .card {
+    @apply rounded-card border border-transparent bg-surface p-15 transition-all duration-rs hover:-translate-y-px hover:shadow-medium;
+  }
+
+  .input {
+    @apply w-full rounded-input bg-surface border border-border px-30 py-13 text-text-input placeholder:text-text-muted focus:outline-none focus:border-magenta/50 transition-colors duration-rs;
+  }
+}
+
+@layer utilities {
+  .text-glow {
+    text-shadow: var(--rs-shadow-title-glow);
+  }
+
+  .glow-cyan {
+    box-shadow: var(--rs-shadow-cyan-glow);
+  }
+}
