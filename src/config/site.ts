@@ -5,7 +5,7 @@ export const SITE = {
     'Espacio de encuentro para jugadores. Mesas de rol, juegos de mesa, cartas, eventos y comunidad.',
   url: 'https://casaludus.com.ar',
   email: 'hola@casaludus.com.ar',
-  phone: '+54 9 11 0000-0000',
+  phone: '+54 11 5151-7674',
   address: {
     street: 'Av. Luis Puig 407',
     city: 'Turdera, Buenos Aires',

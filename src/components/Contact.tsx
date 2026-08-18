@@ -1,12 +1,11 @@
-import { Mail, Phone, MapPin, Clock, Instagram, Facebook, MessageCircle } from 'lucide-react';
+import { Phone, MapPin, Clock, Instagram, Facebook, MessageCircle } from 'lucide-react';
 import { MapEmbed } from './MapEmbed';
 import { TwitchIcon } from './icons/TwitchIcon';
 import { SITE } from '../config/site';
 
 const CONTACT_ITEMS = [
   { icon: MapPin, label: 'Dirección', value: `${SITE.address.street}, ${SITE.address.city}` },
-  { icon: Mail, label: 'Email', value: SITE.email, href: `mailto:${SITE.email}` },
-  { icon: Phone, label: 'Teléfono', value: SITE.phone, href: `tel:${SITE.phone}` },
+  { icon: Phone, label: 'Teléfono', value: SITE.phone, href: `tel:${SITE.phone.replace(/\s/g, '')}` },
   { icon: Clock, label: 'Horario', value: 'Miércoles a domingo · 15:00 a 23:00 hs' },
 ];
 

@@ -10,13 +10,13 @@ export function TwitchIcon({ size = 18, className }: TwitchIconProps) {
     <svg
       width={size}
       height={size}
-      viewBox="0 0 24 24"
+      viewBox="0 0 256 256"
       fill="currentColor"
       className={cn('shrink-0', className)}
       aria-hidden="true"
       focusable="false"
     >
-      <path d="M11.571 4.714h1.715v5.143H11.57zm4.715 0H18v5.143h-1.714zM6 0 1.714 4.286v15.428h5.143L12 24V4.286h-2.571zm13.143 0v17.143h-5.142l-3.429 2.571v-2.571H6V0z" />
+      <path d="M208 32H48a16 16 0 0 0-16 16v144a16 16 0 0 0 16 16h16v32a8 8 0 0 0 13.13 6.12L121.94 208h42.12l44.81 38.12A8 8 0 0 0 224 240v-32h16a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16Zm0 160h-16a8 8 0 0 0-8 8v24.34l-35.88-30.51A8 8 0 0 0 144 192h-32a8 8 0 0 0-5.13 1.88L64 224.34V200a8 8 0 0 0-8-8H48V48h160ZM176 128V88a8 8 0 0 1 16 0v40a8 8 0 0 1-16 0Zm-56 0V88a8 8 0 0 1 16 0v40a8 8 0 0 1-16 0Z" />
     </svg>
   );
 }

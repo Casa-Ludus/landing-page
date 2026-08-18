@@ -13,12 +13,6 @@ export function Footer() {
             <p className="text-body-sm text-text-muted">
               {SITE.address.street}, {SITE.address.city}, {SITE.address.country}
             </p>
-            <a
-              href={`mailto:${SITE.email}`}
-              className="mt-8 block text-body-sm text-text-nav transition-colors duration-rs hover:text-white"
-            >
-              {SITE.email}
-            </a>
           </div>
 
           <div className="lg:col-span-1">
