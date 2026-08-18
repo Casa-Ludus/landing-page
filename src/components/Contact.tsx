@@ -1,5 +1,6 @@
 import { Mail, Phone, MapPin, Clock, Instagram, Facebook, MessageCircle } from 'lucide-react';
 import { MapEmbed } from './MapEmbed';
+import { TwitchIcon } from './icons/TwitchIcon';
 import { SITE } from '../config/site';
 
 const CONTACT_ITEMS = [
@@ -13,6 +14,7 @@ const SOCIAL_ITEMS = [
   { icon: Instagram, label: 'Instagram', href: SITE.social.instagram },
   { icon: Facebook, label: 'Facebook', href: SITE.social.facebook },
   { icon: MessageCircle, label: 'WhatsApp', href: SITE.social.whatsapp },
+  { icon: TwitchIcon, label: 'Twitch', href: SITE.social.twitch },
 ];
 
 export function Contact() {
