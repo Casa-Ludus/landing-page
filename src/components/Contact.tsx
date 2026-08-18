@@ -6,7 +6,7 @@ const CONTACT_ITEMS = [
   { icon: MapPin, label: 'Dirección', value: `${SITE.address.street}, ${SITE.address.city}` },
   { icon: Mail, label: 'Email', value: SITE.email, href: `mailto:${SITE.email}` },
   { icon: Phone, label: 'Teléfono', value: SITE.phone, href: `tel:${SITE.phone}` },
-  { icon: Clock, label: 'Horario', value: 'Martes a domingo · 15:00 a 23:00 hs' },
+  { icon: Clock, label: 'Horario', value: 'Miércoles a domingo · 15:00 a 23:00 hs' },
 ];
 
 const SOCIAL_ITEMS = [

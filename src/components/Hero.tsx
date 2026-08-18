@@ -20,7 +20,7 @@ export function Hero() {
 
       <div className="relative z-10 mx-auto max-w-layout text-center">
         <span className="mb-16 inline-block rounded-chip border border-border/60 bg-surface/60 px-16 py-8 text-body-sm text-text-dim">
-          Abierto de martes a domingo
+          Abierto de miércoles a domingo · 15 a 23 hs
         </span>
         <h1 className="mb-20 text-h2 font-black text-white text-glow">
           {SITE.name}

@@ -7,8 +7,8 @@ export const SITE = {
   email: 'hola@casaludus.com.ar',
   phone: '+54 9 11 0000-0000',
   address: {
-    street: 'Av. Siempreviva 742',
-    city: 'Buenos Aires',
+    street: 'Av. Luis Puig 407',
+    city: 'Turdera, Buenos Aires',
     country: 'Argentina',
   },
   social: {
