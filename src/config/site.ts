@@ -17,7 +17,8 @@ export const SITE = {
     whatsapp: 'https://wa.me/5491100000000',
     discord: 'https://discord.gg/casaludus',
   },
-  mapEmbed: undefined as string | undefined,
+  mapEmbed:
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3276.5995139172314!2d-58.40574042352343!3d-34.790856067406644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd32bbb721e89%3A0xecbffcd1bede5be4!2sCasa%20Ludus!5e0!3m2!1ses!2sar!4v1787021075906!5m2!1ses!2sar',
 };
 
 export const NAV_LINKS = [

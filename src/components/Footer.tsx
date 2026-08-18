@@ -39,7 +39,7 @@ export function Footer() {
 
           <div className="lg:col-span-1">
             <h4 className="mb-16 font-semibold text-white">Dónde estamos</h4>
-            <MapEmbed className="h-[220px]" />
+            <MapEmbed src={SITE.mapEmbed} className="h-[220px]" />
           </div>
         </div>
 

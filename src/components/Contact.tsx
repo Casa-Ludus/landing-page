@@ -75,7 +75,7 @@ export function Contact() {
             </div>
           </div>
 
-          <MapEmbed className="h-[400px] lg:h-auto" />
+          <MapEmbed src={SITE.mapEmbed} className="h-[400px] lg:h-auto" />
         </div>
       </div>
     </section>
